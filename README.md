@@ -8,8 +8,19 @@ Lead Software Engineer building in the agent era. I design and ship frontend pla
 An agent checks with Sealgraf before it buys. Purchases above your limit wait for your approval on a surface the agent cannot fake, and every decision is sealed into a receipt nobody can rewrite.
 
 - Technical paper: "Approval You Can Verify" — [sealgraf-paper](https://github.com/saiarung27/sealgraf-paper)
-- Integrations: Dify plugin ([PR #3745](https://github.com/langgenius/dify-plugins/pull/3745) in langgenius/dify-plugins), an MCP server, and tools built for CrewAI, LangChain, n8n, Composio, and the Vercel AI SDK
+- IETF Internet-Draft: "Owner-Approved Agent Spending with Sealed Evidence" — [datatracker.ietf.org](https://datatracker.ietf.org/doc/html/draft-gunuganti-agent-approval-evidence-00)
 - Listed in the Claude Directory and the official MCP Registry
+
+## Integrations — published and live
+
+- **LangChain** — [langchain-sealgraf](https://pypi.org/project/langchain-sealgraf/) on PyPI
+- **CrewAI** — [crewai-sealgraf](https://pypi.org/project/crewai-sealgraf/) on PyPI
+- **Composio** — [sealgraf-composio](https://pypi.org/project/sealgraf-composio/) on PyPI
+- **Vercel AI SDK** — [@sealgraf/ai-sdk-tools](https://www.npmjs.com/package/@sealgraf/ai-sdk-tools) on npm
+- **Activepieces** — [@sealgraf/piece-sealgraf](https://www.npmjs.com/package/@sealgraf/piece-sealgraf) on npm
+- **n8n** — [n8n-nodes-sealgraf](https://www.npmjs.com/package/n8n-nodes-sealgraf) on npm
+- **Dify** — live on the [Dify Marketplace](https://marketplace.dify.ai/plugin/saiarung27/sealgraf), verified by Dify
+- **Make** — approved on Make (public listing rolling out)
 
 ## Background
 
